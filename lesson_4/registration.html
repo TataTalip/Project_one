@@ -1,0 +1,91 @@
+<html>
+<head>
+<title> Hello WORLD!!!
+</title>
+<style type="text/css">
+#footer{
+position: fixed;
+left: 0; bottom: 0;
+
+}
+
+
+</style>
+<link 
+		rel="stylesheet"
+		href="CSS\style.css"
+		type="text/css"/>
+</head>
+<body>
+<table wigth="100%"height="100%">
+
+<ul>
+<a href=page.html><li>Статьи</li></a>
+<a href=catalog.html><li>Каталог</li></a>
+<a href=galary.html><li>Галерея изображений</li></a>
+<a href=registration.html><li><strong><u>Регистрация</u></strong></li></a>
+<div id="form_registr">
+<h2>Форма регистрации</h2>
+<form action="registration.php" method="post" name="form_registr">
+<table>
+<tbody><tr>
+<td>Фамилия:</td>
+<td><input type="text" name="last_name" required="required">
+</td></tr>
+
+<tr>
+<td>Имя:</td>
+<td><input type="text" name="first_name" required="required">
+</td></tr>
+
+<tr>
+<td>E-mail:</td><td> <input type="email" name="email" required="required"> 
+<br><span id="valid_email_massage" class="messege_error"> </span></td>
+</tr>
+
+<tr>
+<td>Пароль:</td><td> <input type="password" name="password" placeholder="Минимум 6 символов" required="required"> 
+<br><span id="valid_password_massage" class="messege_error"> </span></td>
+</tr>
+<td>Пол:</td>
+
+<td><input name="Pol" type="radio" value="male">Муж
+<input name="Pol" type="radio" value="female">Жен</td>
+<tr><td>Пол:</td>
+<td><select id="male">
+<option>М</option>
+<option>Ж</option>
+</select>
+</tr>
+
+<tr>
+<td>Дата рождения:</td>
+<td><input type="date" id="date" name="date"> </td>
+<tr><td>О себе:</td>
+<td><input type="text" size="50"></td>
+<tr>
+
+</tr>
+<tr>
+<td>
+<p>
+
+<button type="submit">Сохранить</button>
+<button type="reset">Очистить</button>
+</p>
+</td>
+</tr>
+</table>
+<a href=contact.html><li>Контакты</li></a>
+</ul>
+
+
+
+
+
+
+<div id="footer">
+&copy;
+<div>
+</body>
+</html>
