@@ -13,7 +13,7 @@ left: 0; bottom: 0;
 </style>
 <link 
 		rel="stylesheet"
-		href="C:\Users\Tatiana\Desktop\Web\Lesson_2\CSS\style.css"
+		href="CSS\style.css"
 		type="text/css"/>
 </head>
 <body>
@@ -24,12 +24,15 @@ left: 0; bottom: 0;
 <a href=catalog.html><li>Каталог</li></a>
 <a href=galary.html><li>Галерея изображений</li></a>
 <a href=registration.html><li><strong><u>Регистрация</u></strong></li></a>
+<a href=contact.html><li>Контакты</li></a>
 <div id="form_registr">
 <h2>Форма регистрации</h2>
+
+
 <form action="registration.php" method="post" name="form_registr">
-<table>
+<table border="2">
 <tbody><tr>
-<td>Фамилия:</td>
+<td><label>Фамилия:</label></td>
 <td><input type="text" name="last_name" required="required">
 </td></tr>
 
@@ -51,21 +54,22 @@ left: 0; bottom: 0;
 
 <td><input name="Pol" type="radio" value="male">Муж
 <input name="Pol" type="radio" value="female">Жен</td>
-<tr><td>Пол:</td>
+<!--<tr><td>Пол:</td>
 <td><select id="male">
 <option>М</option>
 <option>Ж</option>
 </select>
-</tr>
+</tr>-->
 
 <tr>
 <td>Дата рождения:</td>
 <td><input type="date" id="date" name="date"> </td>
-<tr><td>О себе:</td>
+<tr width=100%><td height="50">О себе:</td>
 <td><input type="text" size="50"></td>
 <tr>
 
 </tr>
+</table>
 <tr>
 <td>
 <p>
@@ -75,8 +79,8 @@ left: 0; bottom: 0;
 </p>
 </td>
 </tr>
-</table>
-<a href=contact.html><li>Контакты</li></a>
+
+
 </ul>
 
 
